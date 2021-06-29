@@ -36,4 +36,4 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 If you have successfully init your backend app then your API link is:
 [http://localhost:8000](http://localhost:8000)
 
-For info look [README](https://github.com/thisisfaisalhere/Todo/README.md) of backend repo
+For info look [README](https://github.com/thisisfaisalhere) of backend repo

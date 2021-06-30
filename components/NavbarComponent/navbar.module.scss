@@ -1,0 +1,38 @@
+@import "../../styles/colors", "../../styles/mixins";
+
+.navbar {
+  background-color: $primary;
+  @include flexContainer(space-between, center);
+  color: $onPrimary;
+  height: 5rem;
+  padding: 0 15rem 0 15rem;
+
+  .branding {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .navigation {
+    height: 100%;
+    @include flexContainer(center, center);
+
+    .navItems {
+      @include flexContainer(space-around, center);
+      list-style: none;
+      width: 25rem;
+      height: 100%;
+    }
+
+    .navItem {
+      height: 100%;
+      @include flexContainer(center, center);
+      padding: 0 1rem 0 1rem;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $primaryVariant;
+      }
+    }
+  }
+}
